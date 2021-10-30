@@ -17,6 +17,7 @@ public class VectorImpl {
 		vector.add(11);
 		System.out.println("When capacity threshold exceeds, new size:"+vector.size());
 		
+		//creating custom capacity and threshold
 		Vector<Integer> v1 = new Vector<>(5,2);
 		
 		for(int i=1;i<=5;i++) {
